@@ -1,7 +1,8 @@
 ---
-title: "파킹클라우드에 대해서"
+title: "parkingstory000"
 date: 2019-12-15 08:26:28 -0400
-categories: parkingstory
+category: parkingstory
+author_profile: false
 ---
 ### parking story
 ## parking
