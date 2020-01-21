@@ -1,12 +1,6 @@
 # main links
 main:
-  - title: "R&D"
-    url: /rnd/
   - title: "기술"
     url: /skills/
-  - title: "파킹이야기"
+  - title: "주차이야기"
     url: /parkingstory/
-  - title: "미분류"
-    url: /etc/
-  - title: "카테고리"
-    url: /categories/
