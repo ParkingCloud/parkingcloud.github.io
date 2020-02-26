@@ -78,7 +78,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "google1df9391c7db3df63.html"
+google_site_verification : "NdhZdhbvZ3J-iE2GyFwGvwVQQQjv0RAjjMmu-qM0YwA"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -90,13 +90,14 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : /assets/images/pclogo10.png # Open Graph/Twitter default site image
+og_image                 : /assets/logo.ico/ms-icon-310x310.png # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - https://parkingcloud.github.io # An array of links to social media profiles
 
 # Analytics
 analytics:
@@ -232,8 +233,9 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
