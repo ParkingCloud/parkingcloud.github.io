@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "파킹클라우드"
+title                    : "파킹클라우드 기술블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "파킹클라우드"
-description              : "주차의 모든것, 아이파킹."
+description              : "파킹클라우드 기술블로그입니다."
 url                      : "https://parkingcloud.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -123,15 +123,18 @@ author:
     - label: "트위터"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "페이스북"
+    - label: "주차이야기 페이스북"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/parkingcloudstory"
+      url: "https://facebook.com/parkingcloudstory/"
     - label: "깃헙"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
-    - label: "인스타그램"
+    - label: "주차이야기 인스타그램"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/parkingcloudstory/"
+    - label: "아이파킹 인스타그램"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/iparking_official/"
 
 # Site Footer
 footer:
