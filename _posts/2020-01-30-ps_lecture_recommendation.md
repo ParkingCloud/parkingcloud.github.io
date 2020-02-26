@@ -2,8 +2,8 @@
 title: "[강의] 추천시스템"
 description: "추천시스템을 이용해서 사용자의 취향을 파악해보자."
 date: 2020-01-30 11:00:00
-category: 주차이야기
-tags: [추천시스템, 김상욱교수, 무관심아이템]
+category: 기술
+tags: [추천시스템, 무관심아이템]
 author_profile: false
 ---
 * 주제: 추천시스템(Recommendation System)

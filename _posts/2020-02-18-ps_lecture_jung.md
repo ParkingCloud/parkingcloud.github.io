@@ -2,8 +2,8 @@
 title: "[강의] C# 속성 강의"
 description: "정준석 개발자가 알려주는 C#. Java를 할 줄 알면 C#도 가능하다."
 date: 2020-02-18 18:00:00
-tags: [C#, 정준석개발자, 파킹클라우드강의]
-category: 주차이야기
+tags: [C#, 파킹클라우드강의]
+category: 기술
 author_profile: false
 ---
 * 주제: C# 속성 강의
