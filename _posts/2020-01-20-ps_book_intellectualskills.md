@@ -3,6 +3,7 @@ title: "[책소개] IT에 몸담은 이들을 위한 지적생산기술"
 description: "스마트하게, 목표를 설정해서, 타임박싱 기법으로 일해보자."
 date: 2020-01-20 14:40:00
 category: 주차이야기
+tags: [IT기술, 지적생산기술, IT책]
 author_profile: false
 ---
 * 책제목: IT에 몸담은 이들을 위한 지적생산기술
