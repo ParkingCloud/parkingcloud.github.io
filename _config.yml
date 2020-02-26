@@ -11,8 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-remote_theme : mmistakes/minimal-mistakes
+remote_theme : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -26,8 +25,8 @@ url                      : "https://parkingcloud.github.io" # the base hostname 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/pclogo10.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "파킹클라우드" # overrides the website title displayed in the masthead, use " " for no title
+logo                     : "/assets/logo.ico/icon-88x79.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
 words_per_minute         :
 comments:
@@ -115,22 +114,22 @@ author:
   location         : "서울 영등포구 영등로포 3길 19"
   email            :
   links:
-    - label: "Email"
+    - label: "이메일"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
     - label: "회사 홈페이지"
       icon: "fas fa-fw fa-link"
       url: "http://smartparking.iparking.co.kr/"
-    - label: "Twitter"
+    - label: "트위터"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
+    - label: "페이스북"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/parkingcloudstory"
-    - label: "GitHub"
+    - label: "깃헙"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
-    - label: "Instagram"
+    - label: "인스타그램"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/parkingcloudstory/"
 
