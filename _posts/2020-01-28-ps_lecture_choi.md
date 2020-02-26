@@ -1,5 +1,6 @@
 ---
 title: "[강의] 객체 지향"
+description: "최범균 개발자가 알려주는 객체 지향. 추상화를 잘하는 개발자가 진짜 개발자다."
 date: 2020-01-28 18:00:00
 category: 주차이야기
 author_profile: false

@@ -1,5 +1,6 @@
 ---
 title: "[강의] C# 속성 강의"
+description: "정준석 개발자가 알려주는 C#. Java를 할 줄 알면 C#도 가능하다."
 date: 2020-02-18 18:00:00
 category: 주차이야기
 author_profile: false

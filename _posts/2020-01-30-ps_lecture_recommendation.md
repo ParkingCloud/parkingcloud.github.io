@@ -1,5 +1,6 @@
 ---
 title: "[강의] 추천시스템"
+description: "추천시스템을 이용해서 사용자의 취향을 파악해보자."
 date: 2020-01-30 11:00:00
 category: 주차이야기
 author_profile: false
