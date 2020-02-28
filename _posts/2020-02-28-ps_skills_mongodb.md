@@ -33,18 +33,18 @@ IBM사의 DB2의 경우 설정에 따라 DELETE 명령을 수행하면 물리적
 * RocksDB
 * TokuDB
 
-![image.png](/wikis/2519275993152740236/files/2668888362533320452)
+![storage](https://user-images.githubusercontent.com/61443040/75522204-c063c600-5a4c-11ea-8a03-91a040f8af71.png)
 
 ### 몽고 DB의 실제 물리적인 디스크 가용공간을 확보하는 방법
 
- 1. db.repairDatabase() : 백업 세트를 복제하여 재구성하는 방식
-- 장점 : 실제 물리적인 디스크 가용공간이 확보되며, DB 손상 상태를 복구 할 수 있음
-- 단점 : 현재 사용중인 디스크 공간의 두배의 가용 공간이 필요함. 실행 시간이 길며 lock이 걸림(실행 시간동안 DB 사용불가)
+1. db.repairDatabase(): 백업 세트를 복제하여 재구성하는 방식
+- 장점: 실제 물리적인 디스크 가용공간이 확보되며, DB 손상 상태를 복구 할 수 있음
+- 단점: 현재 사용중인 디스크 공간의 두배의 가용 공간이 필요함. 실행 시간이 길며 lock이 걸림(실행 시간동안 DB 사용불가)
 
 2. 특정 DB의 각 collection마다 compact 명령 실행
 - 장점: collection 대상으로 실행하기 때문에 repairDatabase보다는 훨씬 적은 디스크 용량을 사용
 - 단점: 실행 후 실제 디스크 용량은 늘지 않고, 이미 할당된 공간의 파편화를 정리하여 사용 가능하게 만들어 줌
-→ 따라서 디스크 용량이 충분하지 않은 경우엔 실행할 수 없다!! 2GB 정도의 데이터 용량을 사용함.
+→ 따라서 디스크 용량이 충분하지 않은 경우엔 실행할 수 없다!! 2GB 정도의 데이터 용량을 사용함
 
 ## 가용공간 관리 방법
 1. 서버에 접속하여 아래와 같이 명령을 입력하여 대상 DB로 이동한다.
@@ -59,6 +59,7 @@ Server has startup warnings:
 2019-12-26T19:32:41.019+0900 [initandlisten] **          http://dochub.mongodb.org/core/readahead
 >use [데이터베이스명]
 ```
+
 2. 현재 DB의 인스턴스 스토리지에 대한 정보를 확인한다.
 ```
 > db.stats()
@@ -95,7 +96,6 @@ Server has startup warnings:
 - dbStats.indexSize: 데이터베이스에서 작성된 모든 인덱스의 총 크기
 - dbStats.scaleFactor: scale명령에 의해 사용되는 값. 정수가 아닌 스케일 팩터를 지정한 경우 MongoDB는 지정된 팩터의 정수 부분을 사용한다. 예를 들어 스케일 팩터를으로 지정하면 1023.999MongoDB가 1023스케일 팩터로 사용함
 - dbStats.fsTotalSize: MongoDB가 데이터를 저장하는 파일 시스템의 모든 디스크 용량의 총 크기
-
 
 3. 서비스 상황에 맞는 방법을 선택한다.
 
