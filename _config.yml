@@ -109,7 +109,7 @@ analytics:
 # Site Author
 author:
   name             : "파킹클라우드"
-  avatar           : "/assets/images/simplelogo10.png"
+  avatar           : assets\logo.ico\ms-icon-310x310.png
   bio              : "기술도 나누도, 이야기도 나누고"
   location         : "서울 영등포구 영등로포 3길 19"
   email            :
