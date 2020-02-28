@@ -103,8 +103,9 @@ Server has startup warnings:
  - 최대 크기까지 도달 시 자동으로 오래된 데이터를 삭제 후 신규 데이터를 삽입함
  - Size 단위는 Byte 단위
  - 생성하는 시간 동안 잠금 상태를 유지함
- ```
- // Collection 별 최대 사이즈를 지정한다.
+
+```
+// Collection 별 최대 사이즈를 지정한다.
 db.createCollection( "log", { capped: true, size: 100000 } )
 db.createCollection("log", { capped : true, size : 5242880, max : 5000 } )
 
@@ -114,7 +115,7 @@ db.collection.isCapped()
 
 //  생성한 Collection Capped
 db.runCommand({"convertToCapped": "mycoll", size: 100000});
- ```
+```
 
 ★mongod --smallfiles 옵션: 파일 할당 크기를 기본 64MB~2GB에서 16MB~512MB로 설정
  - 들어오는 데이터 크기가 작을 경우 DB 크기 증가 속도 감소
@@ -127,7 +128,7 @@ db.runCommand({"convertToCapped": "mycoll", size: 100000});
  - 색인화된 필드는 반드시 날짜 유형이여야 함
  - usePowerOf2Sizes 설정 시 특정 기간 동안의 데이터를 보존하는 식의 컬렉션 같은 경우 storageSize 재사용률을 크게 높여줌
 
- ```
+```
 // TTL 인덱스 생성
 // 지정된 시간 (초)보다 오래된 경우 컬렉션 에서 문서를 자동으로 삭제
 db.log_events.createIndex( { "createdAt": 1 }, { expireAfterSeconds: 3600 } )
@@ -148,7 +149,7 @@ db.log_events.insert( {
    "logEvent": 2,
    "logMessage": "Success!"
 } )
- ```
+```
 
 ★ repairDatabase
 repairDatabase()는 명령어는 내부적으로 "mongoexport -> tmp생성 -> temp에 mongoimport -> 기존 disk 삭제 -> temp를 disk로 이전" 따라서 temp공간을 위한 여유공간이 필요하다.
