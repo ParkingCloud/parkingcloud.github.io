@@ -1,5 +1,5 @@
 ---
-title: "추천시스템(Recommendation System)으로 취향 반영하기"
+title: "[외부 세미나] 추천시스템(Recommendation System)으로 취향 반영하기"
 description: "추천시스템을 이용해서 사용자의 취향을 파악해보자."
 date: 2020-01-30 11:00:00
 category: 기술
