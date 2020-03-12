@@ -133,7 +133,7 @@
     border-radius: $border-radius;
 
     &:hover {
-      @include yiq-contrasted($muted-text-color);
+      @include yiq-contrasted($link-color-hover); //빨간색
     }
 
     &:first-child {
