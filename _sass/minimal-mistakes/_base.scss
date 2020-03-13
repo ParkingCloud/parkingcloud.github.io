@@ -97,7 +97,9 @@ fieldset {
 
 /* abbreviations */
 
-abbr[title],
+abbr[title]{
+  text-decoration: none;
+},
 abbr[data-original-title] {
   text-decoration: none;
   cursor: help;
@@ -126,7 +128,6 @@ blockquote {
 /* links */
 
 a {
-  text-decoration: none; //링크 하이퍼링크 밑줄 없애기
   &:focus {
     @extend %tab-focus;
   }
