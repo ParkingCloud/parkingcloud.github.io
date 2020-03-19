@@ -20,7 +20,7 @@ html {
   }
 
   @include breakpoint($x-large) {
-    //font-size: 22px; 기본 설정으로 된 폰트사이즈 
+    //font-size: 22px; 기본 설정으로 된 폰트사이즈
     font-size: 18px;
   }
 
@@ -78,6 +78,7 @@ audio:not([controls]) {
 
 a {
   color: $link-color;
+  text-decoration: none;
 }
 
 /* Apply focus state */
