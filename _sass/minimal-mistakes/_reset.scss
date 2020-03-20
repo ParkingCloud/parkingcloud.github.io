@@ -93,6 +93,9 @@ a:hover,
 a:active {
   outline: 0;
 }
+a::before {
+  text-decoration: none;
+}
 
 /* Prevent sub and sup affecting line-height in all browsers */
 
