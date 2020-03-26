@@ -35,27 +35,27 @@ h6 {
 
 h1 {
   margin-top: 0;
-  font-size: $type-size-3;
+  font-size: $h-size-1;
 }
 
 h2 {
-  font-size: $type-size-4;
+  font-size: $h-size-2;
 }
 
 h3 {
-  font-size: $type-size-5;
+  font-size: $h-size-3;
 }
 
 h4 {
-  font-size: $type-size-6;
+  font-size: $h-size-4;
 }
 
 h5 {
-  font-size: $type-size-6;
+  font-size: $h-size-5;
 }
 
 h6 {
-  font-size: $type-size-6;
+  font-size: $h-size-6;
 }
 
 small,
@@ -73,7 +73,6 @@ ins {
   border-bottom: 1px solid $text-color;
   a {
     color: inherit;
-    color: green;
   }
 }
 
@@ -98,9 +97,7 @@ fieldset {
 
 /* abbreviations */
 
-abbr[title]{
-  text-decoration: none;
-}
+abbr[title],
 abbr[data-original-title] {
   text-decoration: none;
   cursor: help;
@@ -133,18 +130,16 @@ a {
 
   &:focus {
     @extend %tab-focus;
-    text-decoration: none;
+    
   }
 
   &:visited {
     color: $link-color-visited;
-    text-decoration: none;
   }
 
   &:hover {
-    color: $link-color-hover;
+    color: red;
     outline: 0;
-    text-decoration: none;
   }
 }
 

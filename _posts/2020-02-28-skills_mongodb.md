@@ -1,10 +1,8 @@
 ---
 title: "몽고 DB 데이터 증가에 따른 관리 방법"
-description: "증가하는 몽고 DB 데이터에 대한 관리하는 방법을 알아보자"
+excerpt: "증가하는 몽고 DB 데이터에 대한 관리하는 방법을 알아보자"
 date: 2020-02-28 18:00:00
-category: 기술
-tags: [DB]
-author_profile: false
+category: skills
 ---
 ## 데이터베이스의 등장배경과 필요성
 ### 데이터베이스 등장배경

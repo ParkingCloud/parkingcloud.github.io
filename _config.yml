@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme : "mmistakes/minimal-mistakes"
+# remote_theme : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -26,7 +26,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/logo.ico/icon-88x79.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "파킹클라우드 기술블로그" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
 words_per_minute         :
 comments:
@@ -224,7 +224,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -232,9 +232,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-#  - jekyll-feed
+  - jekyll-feed
   - jekyll-include-cache
-  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -258,11 +257,9 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
-
 tag_archive:
   type: liquid
   path: /tags/
-
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -292,17 +289,16 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
       read_time: false
       comments: true
       share: false
-      related: true
-
+      related: false
+      author_profile: false
+      classes: wide
  # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
       read_time: false
