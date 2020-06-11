@@ -13,21 +13,21 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
+$serif: Georgia, Times, "Nanum Gothic", serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+  "Helvetica Neue", "Lucida Grande", Arial, "Nanum Gothic", sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", "Nanum Gothic", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
-$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$helvetica: Helvetica, "Helvetica Neue", Arial, "Nanum Gothic", sans-serif !default;
 
 /* serif typefaces */
-$georgia: Georgia, serif !default;
-$times: Times, serif !default;
-$bodoni: "Bodoni MT", serif !default;
-$calisto: "Calisto MT", serif !default;
-$garamond: Garamond, serif !default;
+$georgia: Georgia, "Nanum Gothic", serif !default;
+$times: Times, "Nanum Gothic", serif !default;
+$bodoni: "Bodoni MT", "Nanum Gothic", serif !default;
+$calisto: "Calisto MT", "Nanum Gothic", serif !default;
+$garamond: Garamond, "Nanum Gothic", serif !default;
 
 $global-font-family: $sans-serif !default;
 $header-font-family: $sans-serif !default;
@@ -55,7 +55,7 @@ $h-size-6: 1em !default; // ~16px
    Colors
    ========================================================================== */
 
-$gray: #7a8288 !default;
+$gray: #35383a !default;
 $dark-gray: mix(#000, $gray, 50%) !default;
 $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;

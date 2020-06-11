@@ -7,14 +7,14 @@ category: skills
 ## 1장: 프로그래밍이란 무엇인가?
 
 ### 객체지향 프로그래밍 언어(Object Oriented Programming Langugage)
-    * ex. 자바
+* ex. 자바
 
 ### 클래스(class)
 * 선언법: public class 클래스 이름
     * public class DoorLockManager(){}
 * 자바의 가장 작은 단위
 
-``` 클래스 = 상태(변수) + 행동(메소드)```
+` 클래스 = 상태(변수) + 행동(메소드)`
 
 ### 메소드(method)
 * 어떤 값을 주고 결과를 넘겨주는 것(행동)
@@ -65,10 +65,10 @@ category: skills
 ### 주석(Comment)
 * //: 한줄 주석
 * /* */:  블록 주석
-*  /** */: 문서용 주석
+* /** */: 문서용 주석
 
 ### 메소드
-``` 리턴타입, 메소드이름, 메소드 내용 반드시 포함```
+`리턴타입, 메소드이름, 메소드 내용 반드시 포함`
 * 제어자(modifier): 메소드의 특성 ex. public
 * 리턴 타입(return type): 메소드가 끝났을 때 반환하는 값
 * 메소드 이름(method name): 소괄호 앞에 있는 메소드 이름
@@ -102,7 +102,7 @@ category: skills
     * 인스턴스 변수(instance variables): 메소드 밖에, 클래스 안에서 선언된 변수로 staic 예약어가 없음
     * 클래스 변수(class variables): 메소드 밖에, 클래스 안에서 선언된 변수로 stiatic 예약어가 있음
 
-```
+~~~~ java
 public class VariableTypeKor{
     int 인스턴스_변수;
     static int 클래스_변수;
@@ -110,7 +110,7 @@ public class VariableTypeKor{
         int 지역_변수;
     }
 }
-``` 
+~~~~
 
 ### 가비지 콜렉터(Garbage collector)
 * 메모리 청소
